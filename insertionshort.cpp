@@ -25,9 +25,11 @@ void input() {       //Procedure Input
 
 	for (int i = 0; i < n; i++)   // Menggunakan perulangan for untuk menyimpan data array
 	{
-
+		cout << "Data ke-" << (i + 1) << ": ";
+		cin >> arr[i];
 	}
+}
 
-
+void insertionsort() {
 
 }
